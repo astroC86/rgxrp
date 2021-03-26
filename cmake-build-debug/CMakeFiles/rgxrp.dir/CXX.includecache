@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/polit/Projects/C/C-Data-Structures-And-Algorithms/external/rgxrp/include/Hndlr_fns.h
+string
+-
+list
+-
+
+D:/Users/polit/Projects/C/C-Data-Structures-And-Algorithms/external/rgxrp/include/utils.h
+string
+-
+
+D:/Users/polit/Projects/C/C-Data-Structures-And-Algorithms/external/rgxrp/src/Hndlr_fns.cpp
+../include/Hndlr_fns.h
+D:/Users/polit/Projects/C/C-Data-Structures-And-Algorithms/external/rgxrp/include/Hndlr_fns.h
+../include/utils.h
+D:/Users/polit/Projects/C/C-Data-Structures-And-Algorithms/external/rgxrp/include/utils.h
+string
+-
+regex
+-
+iostream
+-
+

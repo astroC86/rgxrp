@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\rgxrp.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\rgxrp.dir/objects.a @CMakeFiles\rgxrp.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -fprofile-arcs -ftest-coverage -g   -Wl,--whole-archive CMakeFiles\rgxrp.dir/objects.a -Wl,--no-whole-archive  -o rgxrp.exe -Wl,--out-implib,librgxrp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rgxrp.dir\linklibs.rsp
